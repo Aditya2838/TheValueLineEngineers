@@ -32,7 +32,7 @@
   .gold-line.center { margin: 18px auto 28px; }
   .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px; border-radius: var(--radius); font-weight: 600; font-size: .95rem; cursor: pointer; border: none; transition: all .28s ease; text-decoration: none; }
   .btn-gold  { background: var(--gold); color: var(--navy); }
-  .btn-gold:hover  { background: var(--gold2); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,175,55,.35); }
+  .btn-gold:hover  { background: var(--gold); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,175,55,.35); }
   .btn-outline { background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,.6); }
   .btn-outline:hover { background: rgba(255,255,255,.12); border-color: var(--white); transform: translateY(-2px); }
 
@@ -59,9 +59,9 @@
   .nav-hamburger span { display: block; width: 26px; height: 2px; background: var(--white); margin: 5px 0; border-radius: 2px; transition: all .3s; }
   .mobile-menu { display: none; position: absolute; top: 76px; left: 0; right: 0; background: var(--navy); padding: 20px 24px 28px; box-shadow: 0 12px 32px rgba(0,0,0,.3); }
   .mobile-menu.open { display: block; }
-  .mobile-menu a { display: block; color: rgba(255,255,255,.85); text-decoration: none; font-size: 1rem; font-weight: 500; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,.08); transition: color .2s; }
+  .mobile-menu a { display: block; color: rgba(255,255,255,.85); text-decoration: none; font-size: 1rem; font-weight: 500; padding: 12px 10px; border-bottom: 1px solid rgba(255,255,255,.08); transition: color .2s; }
   .mobile-menu a:last-of-type { border-bottom: none; }
-  .mobile-menu a:hover { color: var(--gold); }
+  .mobile-menu a:hover { color: black; }
   .mobile-menu .btn { margin-top: 18px; width: 100%; justify-content: center; }
 
   /* ─── Hero ─── */
